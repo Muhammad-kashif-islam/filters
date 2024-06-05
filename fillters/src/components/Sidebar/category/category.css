@@ -1,0 +1,19 @@
+.category {
+  margin-top: 0.8rem;
+}
+.inputs {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.inputs span {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(44, 44, 44);
+  margin-left: 5px;
+}
+.inputs input {
+  cursor: pointer;
+  width: 15px;
+}

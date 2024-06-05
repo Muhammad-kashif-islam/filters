@@ -1,0 +1,59 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  z-index: -2;
+  gap: 1rem;
+}
+.card {
+  width: 20%;
+  margin: 2opx;
+  border: 2px solid #ededed;
+  padding: 20px;
+  cursor: pointer;
+}
+.card img {
+  width: 100%;
+  aspect-ratio: 2/1;
+}
+.details {
+  margin-top: 10px;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.review {
+  display: flex;
+  gap: 0.2rem;
+  font-size: 12px;
+  margin: 5px 0px;
+}
+.review span {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(44, 44, 44);
+}
+.card-price {
+  display: flex;
+  justify-content: space-between;
+}
+.card-price .price {
+  font-size: 12px;
+  font-weight: 600;
+}
+.card-price del {
+  margin-right: 10px;
+}
+.review-icons {
+  color: rgb(218, 218, 23);
+}
+.bag-icon:hover {
+  color: rgb(52, 209, 78);
+  transition: 0.4s;
+}
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
